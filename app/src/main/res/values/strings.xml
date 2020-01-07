@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">Tema4</string>
+    <string name="btnNumPrim">Números primos</string>
+    <string name="btnAdivCap">Juego de aciertos</string>
+    <string name="btnDespImg">Desplazando imágenes</string>
+    <string name="btnSelecImg">Seleccionando imágenes</string>
+
+    <string name="InsertPrimNum">Inserta aquí el número a comprobar</string>
+    <string name="checkPrime">Comprobar</string>
+    <string name="theNumber">¡El número</string>
+    <string name="isPrime">es un número primo!</string>
+    <string name="noPrime">no es un número primo!</string>
+
+    <string name="pais">PAÍSES</string>
+    <string name="ciudad">CIUDADES</string>
+    <string name="paises">País elegido</string>
+    <string name="ciudades">Ciudad elegida</string>
+    <string name="btnHitGame">Comprobar respuesta</string>
+
+    <string name="spa">España</string>
+    <string name="fra">Francia</string>
+    <string name="eeuu">Estados Unidos</string>
+    <string name="rus">Rusia</string>
+    <string name="chi">China</string>
+    <string name="can">Canadá</string>
+    <string name="ind">India</string>
+    <string name="uga">Uganda</string>
+    <string name="ven">Venezuela</string>
+    <string name="col">Colombia</string>
+
+    <string name="mad">Madrid</string>
+    <string name="par">París</string>
+    <string name="was">Washington D.C.</string>
+    <string name="mos">Moscú</string>
+    <string name="pek">Pekín</string>
+    <string name="ott">Ottawa</string>
+    <string name="nue">Nueva Delhi</string>
+    <string name="kam">Kampala</string>
+    <string name="car">Caracas</string>
+    <string name="bog">Bogotá</string>
+
+
+</resources>

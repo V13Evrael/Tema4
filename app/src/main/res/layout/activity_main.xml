@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen_de_fondo"
+    tools:context=".MainActivity" >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="352dp"
+        android:layout_height="379dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:scaleType="center"
+        android:src="@drawable/earth_rotating"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="?attr/colorControlNormal"
+        android:drawableTop="@drawable/ic_math"
+        android:onClick="openPrimeNumbers"
+        android:text="@string/btnNumPrim"
+        android:textColor="?attr/colorBackgroundFloating"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="?attr/colorControlNormal"
+        android:drawableTop="@drawable/ic_map"
+        android:onClick="openHitGame"
+        android:text="@string/btnAdivCap"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="?attr/colorControlNormal"
+        android:drawableTop="@drawable/ic_arrow"
+        android:text="@string/btnDespImg"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:backgroundTint="?attr/colorControlNormal"
+        android:drawableTop="@drawable/ic_hand"
+        android:text="@string/btnSelecImg"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/button2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgMath"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen_de_fondo"
+    tools:context=".PrimeNumbers">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="124dp"
+        android:contentDescription="@string/btnNumPrim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.050000012"
+        app:srcCompat="@drawable/ic_math" />
+
+    <EditText
+        android:id="@+id/txtInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/InsertPrimNum"
+        android:inputType="number"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/BtnPpl.BtnPrim"
+        android:layout_marginTop="25dp"
+        android:onClick="getPrimeResult"
+        android:text="@string/checkPrime"
+        app:layout_constraintEnd_toEndOf="@+id/txtInsert"
+        app:layout_constraintStart_toStartOf="@+id/txtInsert"
+        app:layout_constraintTop_toBottomOf="@+id/txtInsert" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtInsert"
+        app:layout_constraintStart_toStartOf="@+id/txtInsert"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

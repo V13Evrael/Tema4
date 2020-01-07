@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnAdivCap">Hit game</string>
+    <string name="btnDespImg">Moving images</string>
+    <string name="btnNumPrim">Prime numbers</string>
+    <string name="btnSelecImg">Selecting images</string>
+    <string name="InsertPrimNum">Insert here the number wich will be checked</string>
+    <string name="checkPrime">Check</string>
+    <string name="noPrime">isn\'t a prime number!</string>
+    <string name="theNumber">The number</string>
+    <string name="isPrime">is a prime number!</string>
+    <string name="ciudades">Chosen city</string>
+    <string name="paises">Chosen country</string>
+    <string name="can">Canada</string>
+    <string name="chi">China</string>
+    <string name="col">Colombia</string>
+    <string name="eeuu">United States</string>
+    <string name="fra">France</string>
+    <string name="ind">India</string>
+    <string name="rus">Russia</string>
+    <string name="spa">Spain</string>
+    <string name="uga">Uganda</string>
+    <string name="ven">Venezuela</string>
+    <string name="ciudad">CITIES</string>
+    <string name="pais">COUNTRIES</string>
+    <string name="bog">Bogota</string>
+    <string name="car">Caracas</string>
+    <string name="kam">Kampala</string>
+    <string name="mad">Madrid</string>
+    <string name="mos">Moscow</string>
+    <string name="nue">New Delhi</string>
+    <string name="ott">Ottawa</string>
+    <string name="par">Paris</string>
+    <string name="pek">Beijing</string>
+    <string name="was">Washington D.C.</string>
+    <string name="btnHitGame">Check answer</string>
+</resources>

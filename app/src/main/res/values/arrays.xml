@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paises">
+        <item>@string/spa</item>
+        <item>@string/fra</item>
+        <item>@string/eeuu</item>
+        <item>@string/rus</item>
+        <item>@string/chi</item>
+        <item>@string/can</item>
+        <item>@string/ind</item>
+        <item>@string/uga</item>
+        <item>@string/ven</item>
+        <item>@string/col</item>
+    </string-array>
+
+    <string-array name="ciudades">
+        <item>@string/nue</item>
+        <item>@string/bog</item>
+        <item>@string/car</item>
+        <item>@string/kam</item>
+        <item>@string/mad</item>
+        <item>@string/mos</item>
+        <item>@string/ott</item>
+        <item>@string/par</item>
+        <item>@string/pek</item>
+        <item>@string/was</item>
+
+    </string-array>
+</resources>
