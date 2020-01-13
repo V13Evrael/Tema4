@@ -1,6 +1,5 @@
 package com.example.tema4;
 
-
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,9 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class CiudadesFragment extends Fragment {
-
-
-
 
     public CiudadesFragment() {
         // Required empty public constructor
