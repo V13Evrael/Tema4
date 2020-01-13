@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="InsertPrimNum">" Inseriu aquí el nombre a comprovar"</string>
+    <string name="bog">" Bogotà"</string>
+    <string name="btnAdivCap">" Joc d'encerts"</string>
+    <string name="btnDespImg">" Desplaçant imatges"</string>
+    <string name="btnHitGame">"Comprovar resposta "</string>
+    <string name="btnNumPrim">" Nombres primers"</string>
+    <string name="btnSelecImg">"Seleccionant imatges "</string>
+    <string name="can">" Canadà"</string>
+    <string name="car">" Caracas"</string>
+    <string name="checkPrime">Comprovar</string>
+    <string name="chi">" Xina"</string>
+    <string name="ciudad">CIUTATS</string>
+    <string name="ciudades">Ciutat triada</string>
+    <string name="col">Colòmbia</string>
+    <string name="eeuu">Estats Units</string>
+    <string name="fra">França</string>
+    <string name="ind">Índia</string>
+    <string name="isPrime">és un nombre primer!</string>
+    <string name="jupi">Júpiter</string>
+    <string name="kam">Kampala</string>
+    <string name="luna">Lluna</string>
+    <string name="mad">Madrid</string>
+    <string name="merc">Mercuri</string>
+    <string name="mos">Moscou</string>
+    <string name="noPrime">no és un nombre primer!</string>
+    <string name="nue">Nova Delhi</string>
+    <string name="ott">Ottawa</string>
+    <string name="pais">PAÏSOS</string>
+    <string name="paises">País triat</string>
+    <string name="par">París</string>
+    <string name="pek">Pequín</string>
+    <string name="plut">Plutó</string>
+    <string name="rus">Rússia</string>
+    <string name="sol">Sol</string>
+    <string name="spa">Espanya</string>
+    <string name="theNumber">El nombre</string>
+    <string name="uga">Uganda</string>
+    <string name="ven">Veneçuela</string>
+    <string name="venus">Venus</string>
+    <string name="was">Washington D.C.</string>
+</resources>
