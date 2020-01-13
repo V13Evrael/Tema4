@@ -42,5 +42,13 @@
     <string name="sol">Sol</string>
     <string name="luna">Luna</string>
 
+    <string name="merc">Mercurio</string>
+    <string name="venus">Venus</string>
+    <string name="jupi">Júpiter</string>
+    <string name="plut">Plutón</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

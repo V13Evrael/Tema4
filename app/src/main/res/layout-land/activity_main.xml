@@ -70,6 +70,7 @@
         android:layout_height="80dp"
         android:backgroundTint="?attr/colorControlNormal"
         android:drawableTop="@drawable/ic_hand"
+        android:onClick="openSelectImages"
         android:text="@string/btnSelecImg"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="@+id/button3"

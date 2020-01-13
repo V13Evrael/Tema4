@@ -36,4 +36,8 @@
     <string name="btnHitGame">Check answer</string>
     <string name="luna">Moon</string>
     <string name="sol">Sun</string>
+    <string name="jupi">Jupiter</string>
+    <string name="merc">Mercury</string>
+    <string name="plut">Pluto</string>
+    <string name="venus">Venus</string>
 </resources>

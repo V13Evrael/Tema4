@@ -42,7 +42,6 @@ public class DesplazandoImagenes extends AppCompatActivity {
         }
     }
 
-
     private class PagerAdapterDeslizador extends FragmentStatePagerAdapter {
         public PagerAdapterDeslizador(FragmentManager fm) {
             super(fm);

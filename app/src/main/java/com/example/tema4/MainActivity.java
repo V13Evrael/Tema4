@@ -32,4 +32,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DesplazandoImagenes.class);
         startActivity(intent);
     }
+
+    public void openSelectImages(View v){
+
+        Intent intent = new Intent(this, SelectImagenes.class);
+        startActivity(intent);
+    }
 }
