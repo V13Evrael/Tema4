@@ -26,4 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, JuegoDeAciertos.class);
         startActivity(intent);
     }
+
+    public void openSlideImages(View v){
+
+        Intent intent = new Intent(this, DesplazandoImagenes.class);
+        startActivity(intent);
+    }
 }

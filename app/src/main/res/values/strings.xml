@@ -39,5 +39,8 @@
     <string name="car">Caracas</string>
     <string name="bog">Bogotá</string>
 
+    <string name="sol">Sol</string>
+    <string name="luna">Luna</string>
+
 
 </resources>

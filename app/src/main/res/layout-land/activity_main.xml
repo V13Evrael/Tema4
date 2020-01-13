@@ -58,6 +58,7 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="?attr/colorControlNormal"
         android:drawableTop="@drawable/ic_arrow"
+        android:onClick="openSlideImages"
         android:text="@string/btnDespImg"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"

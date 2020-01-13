@@ -34,4 +34,6 @@
     <string name="pek">Beijing</string>
     <string name="was">Washington D.C.</string>
     <string name="btnHitGame">Check answer</string>
+    <string name="luna">Moon</string>
+    <string name="sol">Sun</string>
 </resources>
